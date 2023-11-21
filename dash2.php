@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE-edge" />
+    <meta name="viewport" content="width=device-width , initial-scale=1.0" />
+    <title>Databank Inventory</title>
+    <link rel="stylesheet" href="dash_2.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.css">
+    </link>
+</head>
+
+<body>
+    <div class="sidebar">
+        <div class="logo">
+            <ul class="menu">
+                <li class="active">
+                    <a href="dash2.php">
+                        <i class="fas fa-tachometer-alt"></i>
+                        <span>Dashboard</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="add-fiber.php">
+                        <i class="fas fa-table"></i>
+                        <span>Fiber Inventory</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="inventory.php">
+                        <i class="fas fa-chart-bar"></i>
+                        <span>DCOPS Inventory</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <i class="fa-solid fa-list"></i>
+                        <span>Edit Fiber Inventory</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <i class="fas fa-chart-bar"></i>
+                        <span>Edit DCOPS Inventory</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="register.php">
+                        <i class="fa fa-plus-square"></i>
+                        <span>Create User</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.graybar.com/">
+                        <i class="fa fa-sitemap"></i>
+                        <span>Order Site</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://databank2.sharepoint.com/sites/MEM1/">
+                        <i class="fa fa-share"></i>
+                        <span>Sharepoint</span>
+                    </a>
+                </li>
+                <li class="logout">
+                    <a href="index.php">
+                        <i class="fa fa-sign-out"></i>
+                        <span>Logout</span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div class="main--content">
+        <div class="header--wrapper">
+            <div class="header--title">
+                <span>Databank</span>
+                <h2>Inventory</h2>
+            </div>
+            <div class="user--info">
+                <div class="search--box">
+                    <i class="fa-solid fa-search"></i>
+                    <input type="text" placeholder="Search">
+                </div>
+                <img src="DB logo.png" alt="Logo">
+            </div>
+        </div>
+        <div class="card--container">
+            <h3 class="main--title">Inventory Adjustments to Date</h3>
+            <div class="card--wrapper">
+                <div class="card--header">
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
